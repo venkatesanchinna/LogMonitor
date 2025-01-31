@@ -1,0 +1,59 @@
+{
+    "name": "venkatesanchinna/log-monitor",
+    "short_name": "LogMonitor",
+    "description": "Provides Laravel error log monitor",
+    "keywords": ["venkatesanchinna", "laravel", "log", "log viewer", "log-viewer", "logviewer", "log-monitor", "log monitor", "logmonitor", "log panel", "log-panel"],
+    "homepage": "https://github.com/venkatesanchinna/log-monitor",
+    "authors": [{
+        "name": "Venkatesan C",
+        "email": "venkatesangee@gmail.com",
+        "homepage": "https://github.com/venkatesanchinna",
+        "role": "Developer"
+    }],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Venkatesanchinna\\LogMonitor\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0 || ^8.1 || ^8.2 || ^8.3",
+        "ext-json": "*",
+        "illuminate/contracts": "^8.0 || ^9.0 || ^10.0 || ^11.0",
+        "illuminate/support": "^8.0 || ^9.0 || ^10.0 || ^11.0",
+        "psr/log": "^1.1 || ^2.0 || ^3.0"
+    },
+    "require-dev": {
+        "laravel/framework": "^10.0 || ^11.0",
+        "mockery/mockery": "^1.4.4 || ^1.5.1",
+        "orchestra/testbench": "^7.0 || ^8.0",
+        "phpunit/phpunit": "^9.5 || ^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Venkatesanchinna\\LogMonitor\\": "src/"
+        },
+        "files": ["helpers.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Venkatesanchinna\\LogMonitor\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --colors=always",
+        "test:dox": "phpunit --testdox --colors=always",
+        "test:cov": "phpunit --coverage-html coverage"
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Venkatesanchinna\\LogMonitor\\LogMonitorServiceProvider", "Venkatesanchinna\\LogMonitor\\Providers\\DeferredServicesProvider"]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
