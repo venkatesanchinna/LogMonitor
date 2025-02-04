@@ -21,7 +21,7 @@ composer require venkatesanchinna/log-monitor
 If you encounter stability issues, you may need to specify the development branch:
 
 ```bash
-composer require venkatesanchinna/log-monitor:dev-main
+composer require venkatesanchinna/log-monitor:dev-master
 ```
 
 ### Publish Assets and Configurations
