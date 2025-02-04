@@ -102,7 +102,7 @@ log-monitor:stats         # Display stats of all logs.
 
 ## Credits
 
-This package was inspired by [ARCANEDEV/LogViewer](https://github.com/ARCANEDEV/LogViewer).
+This package was inspired from [ARCANEDEV/LogViewer](https://github.com/ARCANEDEV/LogViewer).
 
 ## Author
 
