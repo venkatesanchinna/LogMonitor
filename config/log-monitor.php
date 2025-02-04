@@ -63,7 +63,7 @@ return [
      |  This defines how many logs & entries are displayed per page.
      */
 
-    'per-page'      => 30,
+    'per-page'      => env('LOG_PER_PAGE', 30),
 
     /* -----------------------------------------------------------------
      |  Download settings

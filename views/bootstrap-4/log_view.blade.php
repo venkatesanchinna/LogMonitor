@@ -114,6 +114,8 @@
                     </div>
                 @endif
 
+                <div class="card-body">
+
                 <div class="table-responsive">
                     <table id="entries" class="table mb-0">
                         <thead>
@@ -188,8 +190,18 @@
                         </tbody>
                     </table>
                 </div>
+                </div>
+
+                @if ($entries->hasPages())
+                    <div class="card-footer" id="log_view_div">
+                        {!! $entries->appends(compact('query'))->render() !!}
+                        <span class="badge badge-info float-right">
+                            {{ __('log-monitor::log_monitor.pagination_text', ['current' => $entries->currentPage(), 'last' => $entries->lastPage()]) }}
+                        </span>
+                    </div>
+                @endif
             </div>
 
-            {!! $entries->appends(compact('query'))->render() !!}
+            
         </div>
     </div>
