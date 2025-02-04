@@ -1,5 +1,12 @@
 # Log Monitor
 
+[![Latest Stable Version](https://poser.pugx.org/venkatesanchinna/log-monitor/v/stable)](https://packagist.org/packages/venkatesanchinna/log-monitor)
+[![License](https://poser.pugx.org/venkatesanchinna/log-monitor/license)](https://packagist.org/packages/venkatesanchinna/log-monitor)
+[![Total Downloads](https://poser.pugx.org/venkatesanchinna/log-monitor/downloads)](https://packagist.org/packages/venkatesanchinna/log-monitor)
+[![Monthly Downloads](https://poser.pugx.org/venkatesanchinna/log-monitor/d/monthly)](https://packagist.org/packages/venkatesanchinna/log-monitor)
+[![Daily Downloads](https://poser.pugx.org/venkatesanchinna/log-monitor/d/daily)](https://packagist.org/packages/venkatesanchinna/log-monitor)
+
+
 Log Monitor is a Laravel package that provides an intuitive UI for viewing and managing application logs. It supports all Laravel versions and works seamlessly with Bootstrap 3 and 4.
 
 ## Features
