@@ -65,7 +65,8 @@ class LogMonitorServiceProvider extends PackageServiceProvider
             $this->publishViews();
             // Publish the compiled CSS file
             $this->publishes([
-                __DIR__ . '/../resources/assets/css/log.css' => public_path('vendor/log-monitor/assets/css/log.css'),
+                __DIR__ . '/../resources/assets/css/bootstrap-3_log.css' => public_path('vendor/log-monitor/assets/css/bootstrap-3_log.css'),
+                __DIR__ . '/../resources/assets/css/bootstrap-4_log.css' => public_path('vendor/log-monitor/assets/css/bootstrap-4_log.css'),
                 __DIR__ . '/../resources/assets/js/logs.js'  => public_path('vendor/log-monitor/assets/js/logs.js'),
             ], 'log-monitor-assets');
         }

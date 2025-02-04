@@ -9,6 +9,9 @@ Log Monitor is a Laravel package that provides an intuitive UI for viewing and m
 - Real-time log monitoring
 - Easy installation and configuration
 - Lightweight and fast
+- Can preview cusom logs
+- Folder based logs
+
 
 ## Installation
 
