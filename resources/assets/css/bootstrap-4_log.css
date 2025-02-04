@@ -112,3 +112,6 @@ body {
 #log_view_div nav {
     float: left;
 }
+.hidden {
+    display:none;
+ }
