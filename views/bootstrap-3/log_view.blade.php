@@ -50,7 +50,7 @@
                         <a href="{{ route('log-monitor::logs.download', [$log->date]) }}" class="btn btn-xs btn-success">
                             <i class="fa fa-download"></i> @lang('log-monitor::log_monitor.download')
                         </a>
-                        <a href="#delete-log-modal" class="btn btn-xs btn-danger" data-toggle="modal">
+                        <a href="#delete-log-modal-view" class="btn btn-xs btn-danger" data-toggle="modal">
                             <i class="fa fa-trash-o"></i> @lang('log-monitor::log_monitor.delete')
                         </a>
                     </div>

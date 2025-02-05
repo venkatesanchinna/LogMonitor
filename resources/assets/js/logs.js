@@ -1,5 +1,5 @@
-var handleCustomerLog = function() {
-    handleCustomerLogInit = function handleCustomerLogInit() {
+var handleErrorLog = function() {
+    handleErrorLogInit = function handleErrorLogInit() {
         var deleteLogModal = $('div#delete-log-modal'),
             deleteLogForm = $('form#delete-log-form'),
             submitBtn = deleteLogForm.find('button[type=submit]');
@@ -73,10 +73,10 @@ var handleCustomerLog = function() {
     }
     return {
         init: function() {
-            handleCustomerLogInit()
+            handleErrorLogInit()
         }
     };
 }();
 jQuery(document).ready(function() {
-    handleCustomerLog.init();
+    handleErrorLog.init();
 });
